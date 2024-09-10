@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  // Usando o state para armazenar os valores dos dados e o resultado
+  
   const [dado1, setDado1] = useState(0);
   const [dado2, setDado2] = useState(0);
   const [resultado, setResultado] = useState('');
 
-  // Função que rola os dados
+  
   const rolarDados = () => {
     const resultado1 = Math.floor(Math.random() * 6) + 1;
     const resultado2 = Math.floor(Math.random() * 6) + 1;
