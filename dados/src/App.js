@@ -15,7 +15,7 @@ function App() {
     setDado1(resultado1);
     setDado2(resultado2);
 
-    if (resultado1 + resultado2 === 11 || resultado1 + resultado2 === 9) {
+    if (resultado1 + resultado2 === 11 || resultado1 + resultado2 === 7) {
       setResultado('Você ganhou!');
     } else {
       setResultado('Perdeu!');
